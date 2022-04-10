@@ -16,5 +16,153 @@ commit со порака “Add 5 items to the shopping list”.
 - git add shopping_list.txt
 - git commit -m “Add 5 items to the shopping list”
 
+6. На секоја од 5те претходни ставки, додадете им количина (во следниот формат.
+bread x 2). Направете commit со порака “Add quantities to the items.”
+-git commit -m "Add quantities to the items"
 
+7. Креирајте 2 гранки: branch1 и branch2.
+- git branch branch1
+- git branch branch2
 
+8. Внесете ги досегашните логови во документацијата.
+- git log
+commit e02d1184ff28c1794857970f512a1b019ae6c309 (HEAD -> master, branch2, branch1)
+Author: Ivana <ivana.aleksoska@students.finki.ukim.mk>
+Date:   Sun Apr 10 11:11:45 2022 +0200
+
+    Add quantities to the items
+
+commit c0e803d6581b8b061f96b4c1464236a828af2247 (origin/master, origin/HEAD)
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Fri Apr 8 20:08:26 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f644f3afd6ad4682a7ebb04f9f3a7e3d263ae37e
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Thu Mar 31 14:27:37 2022 +0200
+
+    Delete shopping_list.txt
+
+commit dc7c8566da7419eebdef4b5dd94719a7d7e39cc4
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Thu Mar 31 14:22:16 2022 +0200
+
+    Create shopping_list.txt
+
+commit e44ffb64e4bf2f333c6ee4be90f979ee736b9ebe
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Thu Mar 31 14:06:32 2022 +0200
+
+    Update README.md
+:
+
+9. Синхронизирајте ги сите гранки со оддалечениот репозиториум.
+- git fetch
+
+10. Префрлете се на гранката branch1.
+- git checkout branch1
+
+11. Сменете ја количината на петтата ставка во shopping_list.txt и направете commit
+со порака “Change quantity of item #5”.
+- git add shopping_list.txt
+- git commit -m “Change quantity of item #5”
+
+12. Вратете се на гранката master.
+- git checkout master
+
+13. Сменете ја количината на втората ставка во shopping_list.txt и направете commit
+со порака “Change quantity of item #2”.
+- git add shopping_list.txt
+- git commit -m “Change quantity of item #2”
+
+14. Синхронизирајте ги сите гранки со оддалечениот репозиториум
+- git fetch
+
+15. Префрлете се на гранката branch2.
+- git checkout branch2
+
+16. Променете го името на ставката бр. 4 во листата и направете commit со порака
+“Modify item #4”.
+- 
+17. Внесете ги досегашните логови во документацијата.
+- git log
+commit 75faf2559ef4268a0bcc49a45012a4dc8acf222a (HEAD -> branch2)
+Author: Ivana <ivana.aleksoska@students.finki.ukim.mk>
+Date:   Sun Apr 10 12:33:18 2022 +0200
+
+    Modify item #4
+
+commit e02d1184ff28c1794857970f512a1b019ae6c309
+Author: Ivana <ivana.aleksoska@students.finki.ukim.mk>
+Date:   Sun Apr 10 11:11:45 2022 +0200
+
+    Add quantities to the items
+
+commit c0e803d6581b8b061f96b4c1464236a828af2247 (origin/master, origin/HEAD)
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Fri Apr 8 20:08:26 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f644f3afd6ad4682a7ebb04f9f3a7e3d263ae37e
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Thu Mar 31 14:27:37 2022 +0200
+
+    Delete shopping_list.txt
+
+commit dc7c8566da7419eebdef4b5dd94719a7d7e39cc4
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Thu Mar 31 14:22:16 2022 +0200
+
+    Create shopping_list.txt
+
+18. Додадете 6та ставка во shopping_list.txt со промена на последниот commit. Сега
+пораката треба да гласи “Modify item #4 and add item #6”.
+- git add shopping_list.txt
+- git commit -m "Modify item #4 and add item #6"
+
+19. Внесете ги досегашните логови во документацијата.
+- git log
+commit f959409fb4e04d26e3f7132321ba906481ce318c (HEAD -> branch2)
+Author: Ivana <ivana.aleksoska@students.finki.ukim.mk>
+Date:   Sun Apr 10 12:35:16 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 75faf2559ef4268a0bcc49a45012a4dc8acf222a
+Author: Ivana <ivana.aleksoska@students.finki.ukim.mk>
+Date:   Sun Apr 10 12:33:18 2022 +0200
+
+    Modify item #4
+
+commit e02d1184ff28c1794857970f512a1b019ae6c309
+Author: Ivana <ivana.aleksoska@students.finki.ukim.mk>
+Date:   Sun Apr 10 11:11:45 2022 +0200
+
+    Add quantities to the items
+
+commit c0e803d6581b8b061f96b4c1464236a828af2247 (origin/master, origin/HEAD)
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Fri Apr 8 20:08:26 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit f644f3afd6ad4682a7ebb04f9f3a7e3d263ae37e
+Author: Ivana708 <102736899+Ivana708@users.noreply.github.com>
+Date:   Thu Mar 31 14:27:37 2022 +0200
+
+    Delete shopping_list.txt
+
+20. Префрлете се на гранката master и спојте ја гранката branch1 кон master.
+- git checkout master
+- git merge branch1
+
+21. Спојте ја и гранката branch2 кон мастер.
+- git merge branch2
+
+22. Додадете ја текстуалната датотека во која водевте документација до сега
+(потпишана со бројот на вашиот индекс) и направете commit со порака “Add
+docs”.
+- 
+23. Синхронизирајте ги сите гранки со оддалечениот репозиториум.
