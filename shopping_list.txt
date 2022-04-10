@@ -1,5 +1,5 @@
-Eggs
-Flour 
-Milk 
-Water 
-Sugar 
+Eggs x 2
+Flour x 4
+Milk x 2
+Water x 2
+Sugar x 2
