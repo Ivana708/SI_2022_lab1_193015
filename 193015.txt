@@ -1,0 +1,20 @@
+4. Откако ќе го креирате репозиториумот, клонирајте го на вашиот компјутер. По
+клонирање на репозиториумот, влезете во истиот со цел да можете да ги
+извршувате следните задачи.
+- git clone https://github.com/Ivana708/SI_2022_lab1_193015.git
+- cd C:\Users\ivana\Documents\GitHub\SI_2022_lab1_193015
+
+5. Во локалниот репозиториум додадете текстуална датотека shopping_list.txt.
+Додадете во датотеката 5 случајни производи (секој во нов ред) и направете
+commit со порака “Add 5 items to the shopping list”.
+- notepad shopping_list.txt
+- echo Eggs >> shopping_list.txt
+- echo Flour >> shopping_list.txt
+- echo Milk >> shopping_list.txt
+- echo Water >> shopping_list.txt
+- echo Sugar >> shopping_list.txt
+- git add shopping_list.txt
+- git commit -m “Add 5 items to the shopping list”
+
+
+
